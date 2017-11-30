@@ -4,17 +4,17 @@
 body {
   background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
     ),
     url("background.jpg");
   background-size: cover;
-  font-family: fantasy /*'Source Sans Pro', sans-serif;*/
+  font-family: fantasy 
 }
 
 header {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -26,13 +26,152 @@ h1 {
   font-size: 4rem;
   white-space: nowrap;
 }
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  margin: -130;
+  position: absolute;
+  top: 700px;
+  left: 850px;
+}
 p {
   margin: 130;
   font-size: 1.5rem;
 }
+
+.profile {
+  text-align: center; 
+  width: 200px;
+  height: 200px;
+  top: 150px;
+  left: 750px;
+  position: absolute;
+}
+.facebook {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 500px;
+  left: 700px;
+}
+
+.gmail {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 500px;
+  left: 800px;
+}
+
+.outlook {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 500px;
+  left: 900px;
+}
+
+.education {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin: -130;
+  position: absolute;
+  top: 800px;
+  left: 600px;
+}
+
+.experience {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin: -130;
+  position: absolute;
+  top: 800px;
+  left: 800px;
+}
+
+.activities {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin: -130;
+  position: absolute;
+  top: 800px;
+  left: 1000px;
+}
+
+.honors {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin: -130;
+  position: absolute;
+  top: 800px;
+  left: 1200px;
+}
+}
 </style>
 
-<header>
-  <h1>Rena Xu</h1>
-  <p>217-721-5764 • ziruixu2@illinois.edu</p>
-</header>
+<!DOCTYPE html>
+<html>
+<body>
+  <!-- the name and contact -->
+  <header>
+    <h1>Rena Xu</h1>
+    <p>217-721-5764 • ziruixu2@illinois.edu</p>
+  </header>
+
+  <!-- the profile picture -->
+  <div id="profile">
+    <img src="profile.png" class="profile">
+  </div>
+
+  <!-- the link to facebook -->
+  <div id="facebook">
+    <a href=https://www.facebook.com/zirui.xu.129>
+      <img src="facebook.jpg" class="facebook">
+    </a>
+  </div>
+
+  <!-- the link to my gmail -->
+  <div>
+    <a href="mailto:ziruixu2@illinois.edu">
+      <img src="gmail.jpg" class="gmail">
+    </a>
+  </div>
+
+  <!-- the link to my outlook mail -->
+  <div>
+    <a href="mailto:zirui.xu1999@outlook.com">
+      <img src="outlook.jpg" class="outlook">
+    </a>
+  </div>
+
+  <h2>About Me</h2>
+  <!-- link to education page -->
+  <div>
+    <a href="education.html" class="education">Education</a>
+  </div>
+
+  <!-- link to experience page -->
+  <div>
+    <a href="experience.html" class="experience">Experience</a>
+  </div>
+
+  <!-- link to activities page -->
+  <div>
+    <a href="activities.html" class="activities">Activities</a>
+  </div>
+
+  <!-- link to skills page -->
+  <div>
+    <a href="honors.html" class="honors">Skills</a>
+  </div>
+
+</body>
+</html>
